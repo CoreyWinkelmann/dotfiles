@@ -19,5 +19,6 @@ ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 
+vim -f +"PluginInstall" +"q" +"q"
 
 cp ~/dotfiles/.oh-my-zsh/themes/cagenix.zsh-theme ~/.oh-my-zsh/themes/
