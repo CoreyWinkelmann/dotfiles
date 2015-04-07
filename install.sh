@@ -18,3 +18,6 @@ ln -s ~/dotfiles/.vim ~/.vim
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+
+
+cp ~/dotfiles/.oh-my-zsh/themes/cagenix.zsh-theme ~/.oh-my-zsh/themes/
